@@ -5,8 +5,17 @@ function Home() {
         <h1>Home</h1>
 
         <Link href="/sobre">
-        <a>Acessar pagina Sobre</a>
+        <a>Acessar Sobre</a>
         </Link>
+
+        <div>
+
+        <Link href="/tempo">
+        <a>Acessar Tempo</a>
+        </Link>
+
+        </div>
+        
 
         </div>
 }

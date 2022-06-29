@@ -4,9 +4,15 @@ function Sobre() {
     return <div>
         <h1>Sobre</h1>
 
-        <Link href="/">
-        <a>Acessar pagina Home</a>
+        <b>
+            eu sou lindo
+        </b>
+
+       <div>
+       <Link href="/">
+        <a>voltar</a>
         </Link>
+       </div>
 
         </div>
 }
