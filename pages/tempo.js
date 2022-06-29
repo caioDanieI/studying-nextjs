@@ -19,7 +19,7 @@ function Tempo(props) {
     )
 }
 
-export function getStaticProps() {
+export async function getStaticProps() {
     console.log('>passando pelo getstaticprops();')
     const staticDate = new Date();
     const staticDateString = staticDate.toGMTString();
@@ -27,7 +27,8 @@ export function getStaticProps() {
     return {
         props: {
             staticDateString
-        }
+        },
+        revalidate: 1
     }
 }
 
